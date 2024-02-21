@@ -17,7 +17,7 @@ I added an effect for when the paddle is hit.
 
 I added background music and sound effects for when the paddle and blocks get hit and when a life is lost. The background music is loaded in the main menu and stays throughout the entire game without restarting when you load a new scene. I also made the music a singleton, so that when you go back to the main menu, you do not have the music playing a second time.
 
-I added a pause menu when escape is pressed.
+I added a pause menu when escape is pressed. You can resume the game, go back to the main menu, or quit the game. Since we are not going to be exporting the game, I just made the quit button exit play mode.
 
 I made it so that you go to the next level or a win screen when you beat levels one, two, or three.
 
