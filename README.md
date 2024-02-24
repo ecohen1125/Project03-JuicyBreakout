@@ -15,7 +15,7 @@ I added an effect for when a block gets hit and randomness for when a block is l
 
 I added a particle effect for when the paddle is hit by the ball.
 
-I added a screen shake for when a block is hit.
+I added a screen shake for when the paddle or a block is hit.
 
 I added background music and sound effects for when the paddle and blocks get hit and when a life is lost. The background music is loaded in the main menu and stays throughout the entire game without restarting when you load a new scene. I also made the music a singleton, so that when you go back to the main menu, you do not have the music playing a second time.
 
