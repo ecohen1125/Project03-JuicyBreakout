@@ -13,7 +13,7 @@ I changed the assets for the ball, paddle, and the blocks.
 
 I added an effect for when a block gets hit and randomness for when a block is loaded in.
 
-I added an effect for when the paddle is hit.
+I added a particle effect for when the paddle is hit by the ball.
 
 I added background music and sound effects for when the paddle and blocks get hit and when a life is lost. The background music is loaded in the main menu and stays throughout the entire game without restarting when you load a new scene. I also made the music a singleton, so that when you go back to the main menu, you do not have the music playing a second time.
 
@@ -28,6 +28,8 @@ I added a win screen for if you beat level 3.
 
 ## References
 (Ball and Paddle Assets)[https://www.kenney.nl/assets/puzzle-pack]
+
+(Paddle Particles)[https://assetstore.unity.com/packages/2d/textures-materials/neon-shapes-61454]
 
 (Block, Mouse, and Pause Menu Button Assets)[https://www.kenney.nl/assets/ui-pack-space-expansion]
 
