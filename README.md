@@ -25,6 +25,8 @@ I made each level have a different number of blocks for an added challenge in ea
 
 I created and added a win screen for if you beat level 3.
 
+I added a way to reset the ball (puts it back into the starting location where you have to press space to launch the ball) when you press R. I added this because I noticed that the ball gets stuck going straight up and down or side to side often.
+
 
 ## References
 (Ball and Paddle Assets)[https://www.kenney.nl/assets/puzzle-pack]
