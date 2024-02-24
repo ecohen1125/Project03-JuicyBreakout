@@ -6,9 +6,6 @@ using UnityEngine;
 public class FixeBallBehavior : MonoBehaviour
 {
     GameObject ball;
-    public float idleTime = 2f;
-    Vector2 curPos;
-
     GameObject ballSpawnPoint;
     Vector3 spawnPos;
 
@@ -24,22 +21,19 @@ public class FixeBallBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        idleTime -= Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.R)) {
 
-        if (idleTime <= 0.0f)
-        {
-            if (curPos.x == ball.transform.position.x || curPos.y == ball.transform.position.y)
-            {
-                ball.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-                ball.transform.position = spawnPos;
 
-                //ball.GetComponent<ScriptMachine>().graph.variables = true;
-
-                idleTime = 2.0f;
-            }
-                           
+            ResetBall();
         }
-        curPos = ball.transform.position;
+    }
 
+
+    void ResetBall()
+    {
+        ball.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        ball.transform.position = spawnPos;
+
+        Variables.Scene(this).Set("isFollowing", true);
     }
 }
