@@ -23,7 +23,7 @@ I made it so that you go to the next level or a win screen when you beat levels 
 
 I made each level have a different number of blocks for an added challenge in each level.
 
-I added a win screen for if you beat level 3.
+I created and added a win screen for if you beat level 3.
 
 
 ## References
